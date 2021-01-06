@@ -1,0 +1,41 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 20, 2020, 9:27:08 PM
+    Author     : Hatem
+*/
+
+body{
+  margin: 0;
+  padding:0;
+}
+.container{
+  
+  margin-down: 50px;  
+}
+.btn{
+  border: 1px solid #4682B4;
+  background: none;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-family: "montserrat";
+  cursor: pointer;
+  margin: 10px;
+  transition: 0.8s;
+  position: relative;
+  overflow: hidden;
+}
+.btn1,.btn2,btn3{
+  color: #4682B4;
+}
+
+.btn1:hover,.btn2:hover,btn3:hover{
+  color: #fff;
+}
+
+.btn::before{
+  content: "";
+  position: absolute;}
